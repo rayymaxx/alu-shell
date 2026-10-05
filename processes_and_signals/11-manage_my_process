@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Init script that manages manage_my_process daemon
+
 PID_FILE="/var/run/my_process.pid"
 SCRIPT="./manage_my_process"
 
